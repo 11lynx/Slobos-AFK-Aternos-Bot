@@ -7,8 +7,7 @@
   },
   "server": {
     "ip": "daduspeed.aternos.me",
-    "port": "28299"
-,
+    "port": "28299",
     "version": "1.21.11",
     "try-creative": false
   },
@@ -29,45 +28,41 @@
     },
     "chat-messages": {
       "enabled": false,
-      "repeat": true,
-      "repeat-delay": 127777770,
-      "messages": [
-        " a regular pancalau",
-        "Subscribe to madalin",
-        "I like to play with daddy pinci!"
-      ]
+      "repeat": false,
+      "repeat-delay": 999999999,
+      "messages": []
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 1500,
+    "auto-reconnect-delay": 15000,
     "max-reconnect-delay": 60000
   },
   "movement": {
-    "enabled": false,
-    "circle-walk": {
-      "enabled": false,
-      "radius": 4,
-      "speed": 0
-    },
+    "enabled": true,
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 4000
     },
     "random-jump": {
       "enabled": false,
-      "interval": 10000
+      "interval": 15000
+    },
+    "circle-walk": {
+      "enabled": false,
+      "radius": 3,
+      "speed": 0
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false,
     "beds": false,
     "chat": false,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
@@ -75,10 +70,10 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
