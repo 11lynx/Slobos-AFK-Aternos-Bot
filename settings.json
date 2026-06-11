@@ -7,8 +7,8 @@
   },
   "server": {
     "ip": "W123-eREI.aternos.me",
-    "port": 18445,
-    "version": false,
+    "port":25565,
+    "version": 1.20.4,
     "try-creative": false
   },
   "position": {
