@@ -2,12 +2,12 @@
   "name": "AFK Bot",
   "bot-account": {
     "username": "timgioh",
-    "password": "",
+    "password": "chalol78",
     "type": "offline"
   },
   "server": {
     "ip": "W123-eREI.aternos.me"
-    "port": 18824,
+    "port": 18445,
     "version": "1.21.4",
     "try-creative": false
   },
