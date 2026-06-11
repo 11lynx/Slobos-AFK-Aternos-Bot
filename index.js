@@ -2075,5 +2075,3 @@ addLog(
   `Auto-Reconnect: ${config.utils["auto-reconnect"] ? "Enabled" : "Disabled"}`,
 );
 addLog("=".repeat(50));
-
-createBot();
